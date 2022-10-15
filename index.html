@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>BASKETBALL SCORE</title>
+</head>
+<body>
+    <div class="container">
+    <div class="insidecontainer">
+        <div class="container1 mini">
+            <div class="c1">HOME</div>
+            <div class="c2" id="homescore">score</div>
+            <div class="c3">
+                <div class="c31 c" id="h1" onclick="addh1()">+1</div>
+                <div class="c32 c" id="h2" onclick="addh3()">+3</div>
+                <div class="c33 c" id="h3" onclick="addh5()">+5</div>
+            </div>
+            <div class="button-box">
+                <button onclick="hback()" id="homeundo-button">undo</button>
+                <button onclick="hreset()" id="homereset-button">reset</button>
+            </div>
+        </div>
+        <div class="container2 mini">
+            <div class="c4 c1">GUEST</div>
+            <div class="c5 c2" id="guestscore">score</div>
+            <div class="c6 c3">
+                <div class="c61 c" id="g1" onclick="addg1()">+1</div>
+                <div class="c62 c" id="g2" onclick="addg3()">+3</div>
+                <div class="c63 c" id="g3" onclick="addg5()">+5</div>
+            </div>
+            <div class="button-box">
+                <button onclick="gback()" id="guestundo-button">undo</button>
+                <button onclick="greset()" id="guestreset-button">reset</button>
+            </div>
+        </div>
+    </div>
+    <div id="clock" onload="currentTime()">
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

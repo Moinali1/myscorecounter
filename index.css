@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    border: 2px solid black;
+    width: 521px;
+    padding: 19px;
+    margin: 50px auto;
+    height: 300px;
+}
+
+.insidecontainer
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mini
+{
+    border: 2px solid black;
+    height: 279px;
+    width: 226px;
+    margin: 0px 10px;
+}
+.c1
+{
+text-align: center;
+margin-top: 24px;
+}
+.c2
+{
+    text-align: center;
+    margin-top: 24px;
+    width: 60px;
+    height: 60px;
+    margin: 24px auto;
+}
+.c3
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+.c{
+border: 2px solid black;
+margin:0px 20px;
+cursor: pointer;
+}
+.c:active
+{
+    background-color: blue;
+}
+#homescore 
+{
+    background-color: black;
+    color: aliceblue;
+}
+#guestscore
+{
+    background-color: black;
+    color: aliceblue;
+}
+.button-box
+{
+    margin: 10px auto;
+    width: 72px;
+}
